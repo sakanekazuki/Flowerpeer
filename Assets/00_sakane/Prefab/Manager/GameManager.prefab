@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4390803502644744974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4390803502644744968}
+  - component: {fileID: 4390803502644744969}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4390803502644744968
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390803502644744974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4390803502644744969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4390803502644744974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a65081b83a50b41864f2bf577c549d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultPlayerObjectPrefab: {fileID: 4777698401662508554, guid: 37dbe6d0f5ba33a44b8c3a2f2c19c064, type: 3}
+  mainGameCanvasPrefab: {fileID: 3128386211352459872, guid: 10f34df5f9398764aa588cda0603b571, type: 3}
+  gameClearCanvasPrefab: {fileID: 673632915015986800, guid: 4ac9282d788e250488beee1ff8724f90, type: 3}
+  nextStageORstageSelectCanvasPrefab: {fileID: 3233151503987167636, guid: c892ec9cf92b8464c9b292d97f6dcd4b, type: 3}
+  gameOverSelectCanvasPrefab: {fileID: 5858119796768582432, guid: 6e30b9f738c13114e94d6902e223a3dd, type: 3}
+  mainMenuCanvasPrefab: {fileID: 6810567954743385280, guid: 5ceb282632b83f943a7e6ed47aab3178, type: 3}
+  optionCanvasPrefab: {fileID: 2990432117283451840, guid: ca5a702ca924e3a4f8da1c4c49c8eb6b, type: 3}
+  stageStartCanvasPrefab: {fileID: 1212041936088655310, guid: 408a33bfb634c634285794678a87bb07, type: 3}
+  gameClearResultCanvasPrefab: {fileID: 1955667394937775777, guid: 26e3e9398aa551545bc04f476df8fe9b, type: 3}
+  startCountDownTime: 3
+  fastForwardSpeed: 2
+  stillChangeMissionClearValue: 000000001e0000003c0000005a000000
+  stageClearDelayTime: 2
+  stageClearAudio: {fileID: 8300000, guid: 0fbffc87e9415ec42b52fcf02daa2fb1, type: 3}
+  gameOverAudio: {fileID: 8300000, guid: b1232bbc13408814dbdcde64c4cb0747, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a6673509020c2f45983049065064708, type: 3}
+  m_Name: LineInitialStatus
+  m_EditorClassIdentifier: 
+  statuses:
+  - tag: Line
+    layer: 10
+    color: {r: 1, g: 1, b: 0, a: 1}
+    sprite: {fileID: -220692501, guid: 087c85ec4384fad4697812177b87edfe, type: 3}
+  - tag: Line
+    layer: 11
+    color: {r: 1, g: 0, b: 0, a: 1}
+    sprite: {fileID: -1909955174, guid: 6512f835b5a668b4cbaa1818373c391e, type: 3}

@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7050979483101959165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8789826664616665754}
+  - component: {fileID: -6147948414184638677}
+  m_Layer: 0
+  m_Name: AlbumManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8789826664616665754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7050979483101959165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-6147948414184638677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7050979483101959165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 763192ef300018e41a0407ecb7382941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  albumCanvasPrefab: {fileID: 4469008696798255630, guid: dddde5a5dca3243428b99fc05d679249, type: 3}
+  stillSprites:
+  - {fileID: 21300000, guid: 25f3519c0c0c6a24e8ffe5a146522bf2, type: 3}
+  - {fileID: 21300000, guid: c1dc4418353d4db4c8f6095c9589abb9, type: 3}
+  - {fileID: 21300000, guid: 24b1eab130ee1fe4c88c3760241ed754, type: 3}
+  - {fileID: 21300000, guid: afd0da46f509209498a82956a8e59665, type: 3}
+  stillEffects:
+  - {fileID: 21300000, guid: c99014537aaf30e4e9a88540e1c4345c, type: 3}
+  - {fileID: 21300000, guid: 14298431bc28fe04a871f4e337efac3a, type: 3}
+  - {fileID: 21300000, guid: 474d53ddb7ce0d44197565ae36dec7ea, type: 3}
+  - {fileID: 21300000, guid: 615442eb4ff75c14aa2274f63fdda87c, type: 3}
+  effectMaterials:
+  - {fileID: 2100000, guid: 651bb88b1a3015246b967f4bf53bb976, type: 2}
+  - {fileID: 2100000, guid: e22af3c0e741c7543b90a8fdbea02fa0, type: 2}
+  - {fileID: 2100000, guid: f29837ccc419d1d449cec2fcdca09ba6, type: 2}
+  - {fileID: 2100000, guid: 318cac589081d0a42bb26f47925d1ab1, type: 2}

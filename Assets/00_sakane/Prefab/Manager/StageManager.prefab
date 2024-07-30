@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &748332312922707797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7889849327899205994}
+  - component: {fileID: 5068597532631678969}
+  m_Layer: 0
+  m_Name: StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7889849327899205994
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748332312922707797}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5068597532631678969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748332312922707797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f08e96af4d1bab847ba96bdbb7e1695b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgmClip1: {fileID: 8300000, guid: 3c9aaf803732dbe4e9247c3212b6fb0e, type: 3}
+  bgmClip2: {fileID: 8300000, guid: f4ca73f489529f740aad0cdd8bec23d4, type: 3}
+  bgmClip3: {fileID: 8300000, guid: e5551119b9321ea4281d33751ab62aa3, type: 3}
+  bgmClip4: {fileID: 8300000, guid: c436372cce32ec54583ab059ecac7a5b, type: 3}
+  missionConditions: {fileID: 11400000, guid: c73a33384712fc941b88aa9c929c3269, type: 2}
+  stageNames:
+  - "\u59CB\u307E\u308A\u306E\u68EE"
+  - "\u523A\u3055\u308B\u3068\u75DB\u3044\u305E\uFF01\u30A2\u30D6\u306A\u3044\u30CB\u30FC\u30C9\u30EB"
+  - "\u9589\u3056\u3055\u308C\u305F\u3000\u6249"
+  - "\u30CB\u30FC\u30C9\u30EB\u3092\u98DB\u3073\u8D8A\u3048\u3066"
+  - "\u5371\u967A\u3068\u96A3\u308A\u5408\u308F\u305B\uFF01\u9375\u3092\u6C42\u3081\u3066"
+  - "\u30AE\u30EA\u30AE\u30EA\u56DE\u907F\uFF01\u30D3\u30C3\u30B0\u306A\u30CB\u30FC\u30C9\u30EB\uFF01"
+  - "\u8EE2\u304C\u308B\u4E38\u592A\u3092\u4E57\u308A\u8D8A\u3048\u3066"
+  - "\u5F8C\u623B\u308A\u3067\u304D\u306A\u3044\u4E0D\u601D\u8B70\u306A\u58C1"
+  - "\u8E0F\u3093\u3067\uFF01\u6D88\u3057\u3066\uFF01\u4E38\u592A\u306E\u30A2\u30B9\u30EC\u30C1\u30C3\u30AF"
+  - "\u8D64\u8272\u3068\u9EC4\u8272\u3092\u5207\u308A\u66FF\u3048\u3066"
+  - "\u8272\u304C\u5909\u308F\u308B\u3000\u4E0D\u601D\u8B70\u306A\u30AD\u30CE\u30B3"
+  - "\u5F79\u5272\u5206\u62C5\uFF01\u305D\u308C\u305E\u308C\u306E\u4ED5\u4E8B"
+  - "\u4E0A\u4E0B\u306E\u30C9\u30A2\u306E\u9375\u63A2\u3057"
+  - "\u3053\u3053\u304B\u3089\u51FA\u3057\u3066\uFF01\u6551\u51FA\u5927\u4F5C\u6226\uFF01"
+  - "\u3050\u308B\u3063\u3068\u56DE\u3063\u3066\u3001\u9AD8\u304F\u6607\u3063\u3066"
+  - "\u304A\u90AA\u9B54\u3057\u307E\u3059\uFF01\u533A\u5207\u3089\u308C\u305F\u8FF7\u5BAE"
+  - "\u8DB3\u5143\u6CE8\u610F\uFF01\u30CB\u30FC\u30C9\u30EB\u3060\u3089\u3051\u306E\u5371\u967A\u5730\u5E2F"
+  - "\u5C01\u5370\u3055\u308C\u305F\u9375\u306E\u3082\u3068\u3078"
+  - "\u4E0A\u304B\u3089\u4E0B\u3078\u3001\u4E0B\u304B\u3089\u4E0A\u3078"
+  - "\u901A\u308C\u308B\u7CBE\u970A\u3068\u901A\u308C\u306A\u3044\u7CBE\u970A"
+  - "\u30B4\u30FC\u30EB\u306E\u8A98\u60D1\uFF01\uFF1F\u30EF\u30FC\u30D7\u306E\u51FA\u53E3\u3092\u898B\u901A\u3057\u3066"
+  - "\u6D88\u3057\u3066\uFF01\u52A9\u3051\u3066\uFF01\u30AD\u30CE\u30B3\u30D6\u30ED\u30C3\u30AF"
+  - "\u899A\u609F\u3092\u6C7A\u3081\u3066\u2026\u2026\u52C7\u6C17\u306E\u30C0\u30A4\u30D6\uFF01"
+  - "\u304B\u3044\u304F\u3050\u308C\uFF01\u5DE8\u5927\u306A\u7259"
+  - "\u898B\u6975\u3081\u308D\uFF01\u8272\u304C\u5909\u308F\u308B\u30AD\u30CE\u30B3\u306E\u30BF\u30A4\u30DF\u30F3\u30B0"
+  - "\u3069\u304B\u305D\u3046\uFF01\u30B4\u30FC\u30EB\u3092\u963B\u3080\u305F\u304F\u3055\u3093\u306E\u58C1"
+  - "\u9AD8\u304F\u6607\u3063\u3066\u3059\u308A\u629C\u3051\u3066"
+  - "\u4E00\u65B9\u901A\u884C\u306B\u9006\u3089\u3063\u3066"
+  - "\u4E38\u592A\u306E\u4E0A\u3092\u6B69\u304F\u9375"
+  - "\u82B1\u96C6\u3081\u306F\u7D9A\u304F\u3088\u3069\u3053\u307E\u3067\u3082"
